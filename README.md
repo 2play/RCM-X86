@@ -1,3 +1,12 @@
+## 日志汇总
+* 注意,有部分版本硬件底层bootloader烧录有误,导致无法进入U盘模式.
+  如有此现象请与供应商联系.或者使用我提供的项目文件,用arduino编程软件进行烧录
+## RCM-X86注入工具升级目录介绍
+  \internalDongle  内置嵌入式注入器.
+  \V1pcb   第一版,超级电容,黑色PCB电路板版本
+  \V2BAT   第二版,带灰色外壳,使用电池的版本
+  \V3      第二版分支,修改部分引脚功能,生成日期为2018-08-01以后.
+
 # Switch dongle RCM-X86 
 RCM-X86 is MOD of Arduino Zero, 
 It will send the Payload file to  NINTENDO SWITCH to run the Custom Firmware.(like Atmosphere,TX OS or others)
