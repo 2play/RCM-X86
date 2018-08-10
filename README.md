@@ -3,15 +3,15 @@ update: reiNX,rajNX pauload.bin
 ## 日志汇总 (BUG report)
 * 注意,有部分版本硬件底层bootloader烧录有误,导致无法进入U盘模式.  
   如有此现象请与供应商联系.或者使用我提供的项目文件,用arduino编程软件进行烧录
-* If you can not enter the update mode. maybe something wrong with the bootloader or the hardware.
+* If you can not enter the update mode. maybe something wrong with the bootloader or the hardware.  
   See there to update.->>> FIX the dongle
   
 ## UF2 file introduction (UF2文件说明)
- HBL32-> hekate - CTCaer3.2 (大气层)
- TXOS -> TEAM xecuter os 1.0 (OS系统)
- reiNX -> ReiNX
- rajNX -> RajNX 
-
+ HBL32-> hekate - CTCaer3.2 (大气层)  
+ TXOS -> TEAM xecuter os 1.0 (OS系统)  
+ reiNX -> ReiNX  
+ rajNX -> RajNX   
+ 
 ## Directory introduction (目录介绍)
   \internalDongle  Solder inside dongle 内置嵌入式注入器
   \V1pcb   PCB version 超级电容,黑色PCB电路板版本     
