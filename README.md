@@ -4,7 +4,8 @@ update: reiNX,rajNX pauload.bin
 * 注意,有部分版本硬件底层bootloader烧录有误,导致无法进入U盘模式.  
   如有此现象请与供应商联系.或者使用我提供的项目文件,用arduino编程软件进行烧录
 * If you can not enter the update mode. maybe something wrong with the bootloader or the hardware.  
-  See there to update.->>> FIX the dongle
+  See there to update.->>>  [FIX the dongle](https://github.com/euclala/fix_dongle)
+  If you want to build you own payload , It's also by this way.
   
 ## UF2 file introduction (UF2文件说明)
  HBL32-> hekate - CTCaer3.2 (大气层)  
