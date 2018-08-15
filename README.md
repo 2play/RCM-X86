@@ -28,6 +28,7 @@ we have two version hardware:
 * external dongle (with a battery, chagre 30minutes can payload about 500 times in 30 days.)
 * internal dongle (solder it into the switch with 5-6 wire install,auto payload when the switch power on)
 
+![res](https://github.com/euclala/RCM-X86/blob/master/jpg/reset_button.jpg)  
 How to update:
  (WIN7,WIN10,MAC,LINUX)
  * connect it to the PC
