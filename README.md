@@ -1,4 +1,7 @@
-update: reiNX,rajNX pauload.bin
+update: reiNX,rajNX payload.bin  
+
+If you don't know how to hack you switch,see this   
+[How to use](https://github.com/euclala/RCM-X86/tree/master/jpg)
 
 ## 日志汇总 (BUG report)
 * 注意,有部分版本硬件底层bootloader烧录有误,导致无法进入U盘模式.  
