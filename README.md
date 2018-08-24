@@ -1,4 +1,6 @@
-update: reiNX,rajNX payload.bin  
+update: HBLhekate_ctcaer_4_0
+
+please uesd the /V3  UF2 files to flash the dongle.
 
 If you don't know how to hack you switch,see this   
 [How to use](https://github.com/euclala/RCM-X86/tree/master/jpg)
@@ -17,9 +19,9 @@ If you don't know how to hack you switch,see this
  rajNX -> RajNX   
  
 ## Directory introduction (目录介绍)
-  \internalDongle  Solder inside dongle 内置嵌入式注入器
-  \V1pcb   PCB version 超级电容,黑色PCB电路板版本     
-  \V2      V2 version (before 2018-08-01)使用电池的版本2018年8月前生产
+  \internalDongle  Solder inside dongle 内置嵌入式注入器  
+  \V1pcb   PCB version 超级电容,黑色PCB电路板版本  
+  \V2ex      V2 version (before 2018-08-01)使用电池的版本2018年8月前生产  
   \V3      V3 version (after 2018-08-01)2018年8月后
  
 # Switch dongle RCM-X86 
