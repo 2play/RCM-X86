@@ -1,3 +1,12 @@
+
+about: Dongle keeps disconnecting
+  someone say that they dongle keep disconnect， 
+  we think that beacaue of the long ship form china to you place,
+  maybe 10 or 20 day long.
+  the batteries is over consume, and it will be broken.
+  so you need to charge it for 10 hour first
+  if the batteries is really broken, need to change the batteries.
+
 update: HBLhekate_ctcaer_4_0
 
 please uesd the /V3  UF2 files to flash the dongle.
