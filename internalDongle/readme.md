@@ -24,10 +24,10 @@
    this is the sch
    The USB Logic IC EN pin is pull down with a 10K res.
    
-  ![res](https://github.com/euclala/RCM-X86/blob/master/internalDongle/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180915090138.jpg?raw=true)   ![res](https://github.com/euclala/RCM-X86/blob/master/internalDongle/switch%E4%B8%BB%E6%9D%BF%E5%9B%BE_new.jpg?raw=true)
-  ![res](https://github.com/euclala/RCM-X86/blob/master/internalDongle/%E6%8E%A5%E7%BA%BF%E8%A1%A8%E6%A0%BC.jpg?raw=true)
-  ![res](https://github.com/euclala/RCM-X86/blob/master/internalDongle/%E6%94%B9%E6%9C%BA%E8%8A%AF%E7%89%87%E5%9B%BE.jpg?raw=true)
- 
+  ![res](https://github.com/euclala/RCM-X86/blob/master/internalDongle/z_20180915090138.jpg)
+  ![res](https://github.com/euclala/RCM-X86/blob/master/internalDongle/zphoto1.JPG)
+  ![res](https://github.com/euclala/RCM-X86/blob/master/internalDongle/z_switch%E4%B8%BB%E6%9D%BF%E5%9B%BE_new.jpg)
+  
   
   
 
