@@ -1,4 +1,6 @@
 # RCM-X86 chip is a trinket M0 mod chip
+install video :https://www.youtube.com/watch?v=KP71R3F2fF4&t=851s
+how to buy :https://www.tindie.com/products/14280/
 
 ## 4line install  (need to AutoRCM)
    RCM-X86 chip VCC -----> switch 3.3V  
