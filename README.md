@@ -1,4 +1,14 @@
 
+update: SD payload   
+[HBLhekate_ctcaer_4.1](https://gbatemp.net/threads/rcm-payload-hekate-ctcaer-mod.502604/)  
+[SD payload](https://gbatemp.net/threads/basic-uf2-files-rcmx86-trinket-gemma-itsy-no-need-for-arduino.518574/)  
+
+please uesd the /V3  UF2 files to flash the dongle.
+================================================  
+
+another dongle ->[internalDongle](https://github.com/euclala/RCM-X86/tree/master/internalDongle)  
+
+
 about: Dongle keeps disconnecting
   someone say that they dongle keep disconnect， 
   we think that beacaue of the long ship form china to you place,
@@ -6,10 +16,6 @@ about: Dongle keeps disconnecting
   the batteries is over consume, and it will be broken.
   so you need to charge it for 10 hour first
   if the batteries is really broken, need to change the batteries.
-
-update: HBLhekate_ctcaer_4_0
-
-please uesd the /V3  UF2 files to flash the dongle.
 
 If you don't know how to hack you switch,see this   
 [How to use](https://github.com/euclala/RCM-X86/tree/master/jpg)
@@ -22,11 +28,12 @@ If you don't know how to hack you switch,see this
   If you want to build you own payload , It's also by this way.
   
 ## UF2 file introduction (UF2文件说明)
- HBL32-> hekate - CTCaer3.2 (大气层)  
+ hekate_ctcaer-> hekate-ctcaer(大气层)  
  TXOS -> TEAM xecuter os 1.0 (OS系统)  
  reiNX -> ReiNX  
  rajNX -> RajNX   
- 
+ SDpayload -> payload from SD card  
+  
 ## Directory introduction (目录介绍)
   \internalDongle  Solder inside dongle 内置嵌入式注入器  
   \V1pcb   PCB version 超级电容,黑色PCB电路板版本  
