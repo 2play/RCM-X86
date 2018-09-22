@@ -1,5 +1,8 @@
+thanks for everyone in particular:
+Atmosphere TEAM;@CTCaer;@mattytrog;@tumGER;@rajkosto;@Reisyukaku 
 
-update: SD payload   
+
+new update:   
 [HBLhekate_ctcaer_4.1](https://gbatemp.net/threads/rcm-payload-hekate-ctcaer-mod.502604/)  
 [SD payload](https://gbatemp.net/threads/basic-uf2-files-rcmx86-trinket-gemma-itsy-no-need-for-arduino.518574/)  
 
