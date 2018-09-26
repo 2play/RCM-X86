@@ -2,9 +2,13 @@ thanks for everyone in particular:
 Atmosphere TEAM;@CTCaer;@mattytrog;@tumGER;@rajkosto;@Reisyukaku 
 
 
-new update:   
-[HBLhekate_ctcaer_4.1](https://gbatemp.net/threads/rcm-payload-hekate-ctcaer-mod.502604/)  
-[SD payload](https://gbatemp.net/threads/basic-uf2-files-rcmx86-trinket-gemma-itsy-no-need-for-arduino.518574/)  
+# new update:   
+## SD payload 
+thanks for @mattytrog,
+It can reload any payload.bin form the SD card. 
+I think maybe it was the bast idea for all the dongle MOD chip. 
+[SD payload](https://github.com/euclala/sd_bin_reload_RCM-X86)  
+[HBLhekate_ctcaer_4.2](https://gbatemp.net/threads/rcm-payload-hekate-ctcaer-mod.502604/)  
 
 please uesd the /V3  UF2 files to flash the dongle.
 ================================================  
