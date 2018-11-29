@@ -30,6 +30,8 @@ how to buy :https://www.tindie.com/products/14280/
   ![res](https://github.com/euclala/RCM-X86/blob/master/internalDongle/z_20180915090138.jpg)
   ![res](https://github.com/euclala/RCM-X86/blob/master/internalDongle/zphoto1.JPG)
   ![res](https://github.com/euclala/RCM-X86/blob/master/internalDongle/z_switch%E4%B8%BB%E6%9D%BF%E5%9B%BE_new.jpg)
+  ![res](https://github.com/euclala/RCM-X86/blob/master/internalDongle/initpintu.jpg)  
+  
   
   
   
