@@ -1,7 +1,8 @@
+USB dongle move to here ---[USB_Dongle](https://github.com/euclala/RCM_typeC_ex)
+USB 注入器请移步这里 --- [USB_Dongle](https://github.com/euclala/RCM_typeC_ex)
 * * *
-## warning!warning!warning!
-[payload from SD card] is useless in 6.2 system, please use the hekate_ctcaer 4.6
-## 注意
+## warning!warning!warning! 注意  注意 注意
+[payload from SD card] is useless in 6.2 system, please use the hekate_ctcaer 4.6 
 SD重载功能不能用于6.2系统,  6.2系统请刷hekate_ctcaer 4.6
 * * *
 
