@@ -2,8 +2,8 @@ USB dongle move to here ---[USB_Dongle](https://github.com/euclala/RCM_typeC_ex)
 USB 注入器请移步这里 --- [USB_Dongle](https://github.com/euclala/RCM_typeC_ex)
 * * *
 ## warning!warning!warning! 注意  注意 注意
-[payload from SD card] is useless in 6.2 system, please use the hekate_ctcaer 4.6 
-SD重载功能不能用于6.2系统,  6.2系统请刷hekate_ctcaer 4.6
+[ex_SD_reload] is useless in 6.2 system, please use the [Mattytrog_SD_reload] ,
+SD重载功能不能用于6.2系统,  6.2系统请刷[Mattytrog_SD_reload]
 * * *
 
 # RCM-X86 chip is a trinket M0 mod chip
@@ -15,10 +15,11 @@ how to buy :https://www.tindie.com/products/14280/
 ## UF2 file introduction (UF2文件说明)
  hekate_ctcaer-> hekate-ctcaer(大气层)  
  TXOS -> TEAM xecuter os 1.0 (OS系统)  
+ Mattytrog_SD_reload-> Mattytrog SD reload (6.2可用的重载功能,work well in 6.2)
  reiNX -> ReiNX  
  fusee_primary -> New ReiNX
- SDpayload -> payload from SD card  (SD重载 ,useless in 6.2 system )
- disable_code -> disable the chip (you can payload by the switch type-c)
+ ex_SD_reload -> ex  SD reload  (旧版SD重载 ,useless in 6.2 system )
+ disable_code -> disable the chip (禁用芯片,you can payload by the switch type-c)
 * * *
 
 ## 4line install  (need to AutoRCM)四线安装,打开auto RCM
