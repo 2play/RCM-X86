@@ -1,77 +1,86 @@
-thanks for everyone in particular:
-Atmosphere TEAM;@CTCaer;@mattytrog;@tumGER;@rajkosto;@Reisyukaku 
+* * *
+## warning!warning!warning!
+[payload from SD card] is useless in 6.2 system, please use the hekate_ctcaer 4.6
+## 注意
+SD重载功能不能用于6.2系统,  6.2系统请刷hekate_ctcaer 4.6
+* * *
 
+# RCM-X86 chip is a trinket M0 mod chip
 
-# new update:   
-## SD payload 
-thanks for @mattytrog,
-It can reload any payload.bin form the SD card. 
-I think maybe it was the bast idea for all the dongle MOD chip. 
-[SD payload](https://github.com/euclala/sd_bin_reload_RCM-X86)  
-[HBLhekate_ctcaer_4.2](https://gbatemp.net/threads/rcm-payload-hekate-ctcaer-mod.502604/)  
+install video :https://www.youtube.com/watch?v=KP71R3F2fF4&t=851s  
+how to buy :https://www.tindie.com/products/14280/  
 
-please uesd the /V3  UF2 files to flash the dongle.
-================================================  
-
-another dongle ->[internalDongle](https://github.com/euclala/RCM-X86/tree/master/internalDongle)  
-
-
-about: Dongle keeps disconnecting
-  someone say that they dongle keep disconnect， 
-  we think that beacaue of the long ship form china to you place,
-  maybe 10 or 20 day long.
-  the batteries is over consume, and it will be broken.
-  so you need to charge it for 10 hour first
-  if the batteries is really broken, need to change the batteries.
-
-If you don't know how to hack you switch,see this   
-[How to use](https://github.com/euclala/RCM-X86/tree/master/jpg)
-
-## 日志汇总 (BUG report)
-* 注意,有部分版本硬件底层bootloader烧录有误,导致无法进入U盘模式.  
-  如有此现象请与供应商联系.或者使用我提供的项目文件,用arduino编程软件进行烧录
-* If you can not enter the update mode. maybe something wrong with the bootloader or the hardware.  
-  See there to update.->>>  [FIX the dongle](https://github.com/euclala/fix_dongle)
-  If you want to build you own payload , It's also by this way.
-  
+* * *
 ## UF2 file introduction (UF2文件说明)
  hekate_ctcaer-> hekate-ctcaer(大气层)  
  TXOS -> TEAM xecuter os 1.0 (OS系统)  
  reiNX -> ReiNX  
- rajNX -> RajNX   
- SDpayload -> payload from SD card  
+ fusee_primary -> New ReiNX
+ SDpayload -> payload from SD card  (SD重载 ,useless in 6.2 system )
+ disable_code -> disable the chip (you can payload by the switch type-c)
+* * *
+
+## 4line install  (need to AutoRCM)四线安装,打开auto RCM
+   RCM-X86 chip VCC -----> switch 3.3V  
+   RCM-X86 chip GND -----> switch GND  
+   RCM-X86 chip USB D-   -----> switch D-  
+   RCM-X86 chip USB D+   -----> switch D+  
+
+## 5line install  (NOT need  AutoRCM) 5线安装,启动时按住音量+
+   (need to press the VOL+ and Power button to payload the switch)
+   RCM-X86 chip VCC -----> switch 3.3V  
+   RCM-X86 chip GND -----> switch GND  
+   RCM-X86 chip USB D-   -----> switch D-  
+   RCM-X86 chip USB D+   -----> switch D+ 
+   RCM-X86 chip D0  -----> switch JOY-con Pin10  
+
+* * *
+WIN 7 need to install the WIN7driver驱动程序x.exe
+## How to flash UF2 file (after install it into the switch)
+   * solder a magnetic switch  between the GND and RES  
+   * turn off the switch
+   * pull in the type-C, connect the switch with the PC
+   * Ues the magnet near the magnetic switch
+          (twice at one second, to short the GND &RES)
+   * normally it will be a new disk in you PC file explorer
+   * if the PC say unknow usb driver ,just pull down the type-C and pull in it,or try again
+   * copy the *.uf2 file into the new disk, then the disk will disappear.
+   * done.
+## 如何升级芯片的固件(装上机器后升级)
+   * WIN7 需要安装驱动程序,WIN10不需要
+   * 必须要在芯片GND和RES中间焊接干簧管
+   * 关闭 switch
+   * 通过 type-C数据线连接到switch,
+   * 1秒内用磁铁触碰干簧管两次(实现短路)
+   * 通常情况下,电脑就会显示出一个U盘,
+   * 把 *.uf2 文件复制进去 这个U盘,U盘会自动消失,升级成功.
+* * *
+
+## If you want to bulid you project
+This is the sch ,(All the GPIO is the same as the trinket M0)
+The USB Logic IC EN pin is pull down with a 10K res.
+(trinket M0 GPIO D3 is link to the USB IC EN pin)
+   
+  ![res](https://github.com/euclala/RCM-X86/blob/master/z_20180915090138.jpg)
+  ![res](https://github.com/euclala/RCM-X86/blob/master/zphoto1.JPG)
+  ![res](https://github.com/euclala/RCM-X86/blob/master/z_switch_board.jpg)
+  ![res](https://github.com/euclala/RCM-X86/blob/master/initpintu.jpg)  
   
-## Directory introduction (目录介绍)
-  \internalDongle  Solder inside dongle 内置嵌入式注入器  
-  \V1pcb   PCB version 超级电容,黑色PCB电路板版本  
-  \V2ex      V2 version (before 2018-08-01)使用电池的版本2018年8月前生产  
-  \V3      V3 version (after 2018-08-01)2018年8月后
- 
-# Switch dongle RCM-X86 
-RCM-X86 is MOD of Arduino Zero, 
-It will send the Payload file to  NINTENDO SWITCH to run the Custom Firmware.(like Atmosphere,TX OS or others)
-It was easy to change the dongle Firmware by PC,MAC or OS, using the UF2 files.
+  
+  
+  
 
-we have two version hardware:
-* external dongle (with a battery, chagre 30minutes can payload about 500 times in 30 days.)
-* internal dongle (solder it into the switch with 5-6 wire install,auto payload when the switch power on)
 
-![res](https://github.com/euclala/RCM-X86/blob/master/jpg/reset_button.jpg)  
-How to update:
- (WIN7,WIN10,MAC,LINUX)
- * connect it to the PC
- * double click the RES button 
- * a new disk will display in you file explorer
- * copy the UF2 file in to the new disk.
- * the dongle will auto reset. Done.
 
-# RCM-X86注入工具升级教程:
-(支持WIN7,WIN10,MAC,Linux)
-* 通过microUSB线(旧版本),或者USB口接到电脑
-* 接到电脑后,双击RES 复位按钮.
-* 此时会在我的电脑显示一个名为RCM 的U盘,
-* 把相应的文件升级文件(大气层HBL或者OS,)拷贝进去即可，
-  拷贝进去后会自动重启，拔出就可以使用了
+
+
+
+
+
+
+
+
+
 
 
 
