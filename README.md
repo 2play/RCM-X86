@@ -9,7 +9,7 @@ SD重载功能不能用于6.2系统,  6.2系统请刷[Mattytrog_SD_reload]
 # RCM-X86 chip is a trinket M0 mod chip
 
 install video :https://www.youtube.com/watch?v=KP71R3F2fF4&t=851s  
-how to buy :https://www.tindie.com/products/14280/  
+how to buy :https://www.tindie.com/products/jcrorxp/samd21-trinket-m0-mod-for-switch-dongle-rcm-x86/
 
 * * *
 ## UF2 file introduction (UF2文件说明)
