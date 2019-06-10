@@ -4,7 +4,7 @@
 If you want to use like the trinket M0 (without the usb switc logic IC)  
 just soder the X pad and Y pad.  
 * * *
-  ![res](https://github.com/euclala/RCM-X86/blob/master/V1.1.jpg.jpg)
+  ![res](https://github.com/euclala/RCM-X86/blob/master/V1.1.jpg)
 * * *
 
 ## You can also download the UF2 file form Mattytrog 's Github  
