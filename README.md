@@ -1,3 +1,18 @@
+
+## The chip V1.1 is the same use as the old chip . 
+(No need to soder out the R1)  
+If you want to use like the trinket M0 (without the usb switc logic IC)  
+just soder the X pad and Y pad.  
+* * *
+  ![res](https://github.com/euclala/RCM-X86/blob/master/V1.1.jpg.jpg)
+* * *
+
+## You can also download the UF2 file form Mattytrog 's Github  
+https://gbatemp.net/threads/modchip-software-simple-uf2-with-switchboot-save-fuses-without-autorcm.526607/  
+https://github.com/mattytrog?tab=repositories  
+
+* * *  
+
 USB dongle move to here ---[USB_Dongle](https://github.com/euclala/RCM_typeC_ex)
 USB 注入器请移步这里 --- [USB_Dongle](https://github.com/euclala/RCM_typeC_ex)
 * * *
