@@ -1,4 +1,14 @@
+## The new   chip VB is in stock now  .
 
+ All is same as the trinket M0.  
+ Add a 5v input pad and remove the usb logic IC.  
+ Add a Res key.  
+ The D0 pad  had a pull down  resistance  820 Ω .  
+ 
+ ![res](https://github.com/euclala/RCM-X86/blob/master/chip_VB.jpg)  
+ 
+ 
+* * *
 ## The chip V1.1 is the same use as the old chip . 
 (No need to soder out the R1)  
 If you want to use like the trinket M0 (without the usb switc logic IC)  
